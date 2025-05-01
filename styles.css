@@ -2,32 +2,43 @@ body {
   font-family: 'Times New Roman', serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
 }
 
 header {
   background: #1f3a93;
-  color: white;
-  padding: 20px 0;
+}
+
+.logo-banner {
+  position: relative;
   text-align: center;
 }
 
-.logo {
-  width: 140px;
-  display: block;
-  margin: 0 auto 10px;
+.logo-banner img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
 }
 
-nav a {
+.logo-banner nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-banner nav a {
   margin: 0 15px;
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 18px;
 }
 
-nav a:hover {
+.logo-banner nav a:hover {
   text-decoration: underline;
 }
 
