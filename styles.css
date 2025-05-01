@@ -196,20 +196,53 @@ body {
 
 .team-member img {
   width: 100%;
-  max-width: 160px;
-  border-radius: 50%;
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px; /* square with rounded corners */
   margin-bottom: 15px;
 }
 
 .team-member h4 {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
+  font-size: 18px;
   color: #1f3a93;
 }
 
-.team-member p {
+.team-member .title {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.team-member .bio {
   font-size: 15px;
   color: #555;
+  margin-bottom: 10px;
 }
+
+.team-member .education {
+  font-style: italic;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.linkedin-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #0077b5;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.linkedin-btn:hover {
+  background-color: #005a8c;
+}
+
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
