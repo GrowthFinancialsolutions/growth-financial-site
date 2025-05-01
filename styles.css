@@ -3,27 +3,28 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #121212;
-  color: #f0f0f0;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 header {
-  background: #1a1a1a;
+  background: #1f3a93;
   color: white;
   padding: 20px 0;
   text-align: center;
 }
 
 .logo {
-  width: 120px;
+  width: 140px;
   display: block;
   margin: 0 auto 10px;
 }
 
 nav a {
   margin: 0 15px;
-  color: #f0f0f0;
+  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -31,14 +32,14 @@ nav a:hover {
 }
 
 .hero {
-  background: #222;
+  background: #e0e0e0;
   padding: 40px 20px;
   text-align: center;
 }
 
 section {
-  padding: 20px;
-  max-width: 800px;
+  padding: 30px 20px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -52,18 +53,12 @@ form textarea {
   margin-bottom: 10px;
   padding: 10px;
   font-size: 16px;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-form input,
-form textarea {
-  background-color: #2e2e2e;
-  color: white;
-}
-
 button {
-  background: #3a7bd5;
+  background: #1f3a93;
   color: white;
   padding: 10px;
   border: none;
@@ -72,9 +67,27 @@ button {
 }
 
 footer {
-  background: #1a1a1a;
+  background: #1f3a93;
   color: white;
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
 }
