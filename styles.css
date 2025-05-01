@@ -193,13 +193,14 @@ body {
 .team-member:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
 .team-member img {
+  display: block;
+  margin: 0 auto;
   width: 100%;
   max-width: 200px;
   height: 200px;
   object-fit: cover;
-  border-radius: 0; /* completely square */
+  border-radius: 8px;
   margin-bottom: 15px;
 }
 
