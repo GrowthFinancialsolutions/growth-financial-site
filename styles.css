@@ -107,13 +107,12 @@ body {
   color: #1f3a93;
   margin-bottom: 40px;
 }
-
 .services-grid {
   display: grid;
-grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
   gap: 20px;
+  justify-items: stretch;
 }
-
 .service-card {
   background-color: white;
   padding: 20px;
